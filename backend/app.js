@@ -12,7 +12,7 @@ app.use(
     cors({
         origin: process.env.FRONTEND_URL,
         methods: ['POST'],
-        withCredentials:true
+        credentials:true
         
     })
 )
